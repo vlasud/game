@@ -1,5 +1,7 @@
-﻿
+﻿#include <graviton/Graviton.h>
+
 int main()
 {
-	return 0;
+    graviton::Engine::GetInstance().x;
+    return 0;
 }
