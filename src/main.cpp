@@ -2,6 +2,7 @@
 
 int main()
 {
-    graviton::Engine::GetInstance().x;
+    graviton::Engine::GetInstance().init();
+    graviton::Engine::GetInstance().run();
     return 0;
 }
