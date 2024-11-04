@@ -1,6 +1,6 @@
 ﻿#include <graviton/Graviton.h>
 
-int main()
+int graviton::GravitonEntry(graviton::ApplicationArguments arguments)
 {
     graviton::Engine::GetInstance().init();
     graviton::Engine::GetInstance().run();

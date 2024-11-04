@@ -1,6 +1,8 @@
 ﻿cmake_minimum_required (VERSION 3.8)
 
-project(game C CXX)
+project(game CXX C)
+
+set(CMAKE_CXX_STANDARD 20)
 
 file(GLOB SRC_FILES
     ${PROJECT_SOURCE_DIR}/src/*.cpp
